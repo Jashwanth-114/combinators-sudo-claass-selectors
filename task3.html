@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Droup-Down</title>
+    <style>
+        .nav{
+            text-align: center;
+            color:navy;
+        }
+        .nav2{
+            text-align: center;
+            
+           
+        }
+        .nav:hover + .nav2{
+            display: block;
+            color:cornflowerblue;
+            display: flex;
+            margin-left: 82vh;
+            gap: 3vh;
+        }
+        .nav:hover {
+            
+            display: block;
+            transition: all .2s ease-in-out;
+            transform: scale(1.1);
+            color: brown; 
+        }
+       .nav2{
+        display: none;
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>Nav Bar</h1>
+    </div>
+    <div class="nav2">
+        <p>Home</p>
+        <p>about</p>
+        <p>projects</p>
+        <p>Services</p>
+        <p>contact</p>
+    </div>
+       
+</body>
+</html>
